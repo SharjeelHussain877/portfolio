@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.app {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  line-height: 1.5;
+  color: var(--clr-txt);
+  background-color: var(--clr-bg);
+}
+
+.light {
+  --clr-bg: #ffffff;
+  --clr-bg-alt: #f6f4f4;
+
+  --clr-txt: #000000ca;
+  --clr-primary: #03467a;
+
+  --clr-border: #919090;
+
+  --clr-nav: #fefefe;
+
+  --shadow: rgb(100, 100, 111) 0px 7px 29px 0px;
+}
+
+.dark {
+  --clr-bg: #202523;
+  --clr-bg-alt: #1d2120;
+
+  --clr-txt: #eeeeee;
+  --clr-primary: #83c9ff;
+  --clr-border: #eeeeee7c;
+  --clr-nav: #272f2b;
+  --shadow: rgba(0, 0, 0, 0.558) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+main {
+  max-width: 1100px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #2978b595;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1d80cd;
+  border-radius: 12px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #03467a;
+  border-radius: 12px;
+}

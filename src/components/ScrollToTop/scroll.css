@@ -1,0 +1,23 @@
+.scroll-up {
+  position: fixed;
+  bottom: 75px;
+  right: 30px;
+  border: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  z-index: 100;
+  color: var(--clr-txt);
+  background: transparent !important;
+  transition: 0.5s;
+}
+
+.scroll-up:hover {
+  color: var(--clr-primary);
+}
+
+@media (max-width: 570px) {
+  .scroll-up {
+    height: 40px;
+    width: 40px;
+  }
+}
